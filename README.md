@@ -12,6 +12,7 @@ class_rec.ipynb - recommendations for groups
 local_validation_groups.ipynb - combination of personal and group recommendations
   
   Operating procedure:
-1. Run user_class.ipynb, get a dataframe with the division of users into groups
-2. Run class_rec.ipynb, get a dictionary with recommendations for groups
-3. Run local_validation_groups.ipynb, get model prediction
+1. Run data_split
+2. Run user_class.ipynb, get a dataframe with the division of users into groups
+3. Run class_rec.ipynb, get a dictionary with recommendations for groups
+4. Run local_validation_groups.ipynb, get model prediction
